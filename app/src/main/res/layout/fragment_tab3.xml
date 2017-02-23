@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cs442.kvaradar.quantum.Tab3"
+    android:background="@color/colorPrimaryDark"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mi5"
+        android:id="@+id/imageView20"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="2015 ‧ Acction/Thriller ‧ 2h 11m"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/textView21"
+        android:textColor="?android:attr/colorPressedHighlight"
+
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView20" />
+
+    <ImageButton
+        app:srcCompat="?attr/actionModeShareDrawable"
+        android:id="@+id/imageButton20"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_toEndOf="@+id/textView20"
+        android:layout_marginStart="25dp" />
+
+    <TextView
+        android:text="Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
+        android:layout_width="wrap_content"
+        android:id="@+id/textView22"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:gravity="fill"
+        android:layout_marginLeft="15dp"
+        android:textSize="14sp"
+        android:layout_height="71dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Mission: Impossible - Rogue Nation"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_height="50dp"
+        android:textSize="17sp"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:gravity="bottom|left|center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/imageView20"
+        android:layout_alignEnd="@+id/imageView20" />
+
+</RelativeLayout>
+
+

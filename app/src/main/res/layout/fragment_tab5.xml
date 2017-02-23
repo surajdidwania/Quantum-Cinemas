@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cs442.kvaradar.quantum.Tab5"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/spiderman"
+        android:id="@+id/imageView40"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="2014 ‧  Action, Sci-Fi  ‧ 2h 23m"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/textView41"
+        android:textColor="?android:attr/colorPressedHighlight"
+
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imageButton30" />
+
+    <TextView
+        android:text="When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones."
+        android:layout_width="wrap_content"
+        android:id="@+id/textView42"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:gravity="fill"
+        android:layout_marginLeft="15dp"
+        android:layout_height="71dp"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageButton
+        app:srcCompat="?attr/actionModeShareDrawable"
+        android:id="@+id/imageButton40"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView42"
+        android:layout_toEndOf="@+id/imageView40"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:text="The Amazing Spider-Man 2"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView40"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:gravity="bottom|left|center_vertical"
+        android:layout_below="@+id/imageView40"
+        android:layout_alignStart="@+id/textView41" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cs442.kvaradar.quantum.Tab2"
+    android:background="@color/colorPrimaryDark"
+    android:clickable="true">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image1"
+        android:id="@+id/imageView"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="detail" />
+
+    <TextView
+        android:text="2011 ‧ Comedy/Crime ‧ 1h 27m"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/textView3"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="15dp" />
+
+    <ImageButton
+        app:srcCompat="?attr/actionModeShareDrawable"
+        android:id="@+id/imageButton2"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="28dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="A man caught in the middle of two simultaneous robberies at the same bank desperately tries to protect the teller with whom he's secretly in love."
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:gravity="fill"
+        android:layout_marginLeft="15dp"
+        android:layout_height="71dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="FLYPAPER"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:gravity="bottom|left|center_vertical"
+        android:layout_below="@+id/imageView"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+</RelativeLayout>
+   <!-- <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="336dp"
+        app:srcCompat="@drawable/image1"
+        android:id="@+id/imageView"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>-->

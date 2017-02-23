@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:text="Reviews"
+        android:fontFamily="Arial"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:gravity="center|center_horizontal"
+        android:layout_marginLeft="140dp" />
+
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="2dp"
+
+        android:layout_below="@+id/review" />
+
+
+</RelativeLayout>

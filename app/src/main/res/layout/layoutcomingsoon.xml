@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/imgcmgsoon"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtmovie"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/imgcmgsoon"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="59dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtdata"
+        android:linksClickable="true"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/txtmovie"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcomingsoon"
+        android:text="Coming Soon"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:textColor="@color/colorPrimary" />
+
+
+</RelativeLayout>

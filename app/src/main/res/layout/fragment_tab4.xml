@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cs442.kvaradar.quantum.Tab4"
+    android:background="@color/colorPrimaryDark"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/avenger"
+        android:id="@+id/imageView30"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="2015 ‧ Action/Sci-Fi ‧ 2h 23m"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/textView31"
+        android:textColor="?android:attr/colorPressedHighlight"
+
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imageButton30" />
+
+    <ImageButton
+        app:srcCompat="?attr/actionModeShareDrawable"
+        android:id="@+id/imageButton30"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/textView31"
+        android:layout_toEndOf="@+id/textView30"
+        android:layout_marginStart="25dp" />
+
+    <TextView
+        android:text="Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity."
+        android:layout_width="wrap_content"
+        android:id="@+id/textView32"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:gravity="fill"
+        android:layout_marginLeft="15dp"
+        android:layout_height="71dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:text="Avengers: Age of Ultron"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView30"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:gravity="bottom|left|center_vertical"
+        android:layout_below="@+id/imageView30"
+        android:layout_alignEnd="@+id/imageView30"
+        android:layout_alignStart="@+id/textView32" />
+
+</RelativeLayout>
